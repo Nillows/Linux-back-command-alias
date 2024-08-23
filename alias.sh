@@ -2,9 +2,9 @@
 # PLACE THIS CODE BLOCK SOMEWHERE IN YOUR '.bashrc' FILE AND THEN EXECUTE 'source ~/.bashrc' OR OPEN A FRESH TERMINAL
 
 # Creates a history array containing directories I have visited
-# edits the 'cd' command to also perform a 'PWD' call and append to history array
-# establishes the 'back' command to perform the proper 'cd' command to go reverse your traversal
-# deletes the last entry in the history array to ensure the history array remains accurate 
+# edits the 'cd' command to also perform a 'PWD' call and append to pathHistory array
+# establishes the 'back' command to perform the proper 'cd' command to reverse your traversal path so far
+# deletes the last entry in the history array to ensure the history array remains accurate from $HOME to $PWD
 
 # Initialize the pathHistory array and arrayPosition
 pathHistory=("$HOME")
